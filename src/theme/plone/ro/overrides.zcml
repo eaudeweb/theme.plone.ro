@@ -1,0 +1,12 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser">
+
+  <browser:viewlet
+    name="collective.ploneslimbar"
+    manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+    class=".browser.viewlets.slimbar.PloneRoSlimbarViewlet"
+    layer="collective.ploneslimbar.interfaces.IPloneslimbarLayer"
+    permission="zope2.View"
+    />
+</configure>
