@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<layers>
+  <layer name="theme.plone.ro"
+    interface="theme.plone.ro.browser.interfaces.IThemeSpecific" />
+</layers>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="Plone.ro Theme">
+
+ <object name="theme_plone_ro_images"
+    meta_type="Filesystem Directory View"
+    directory="theme.plone.ro:skins/theme_plone_ro_images"/>
+ <object name="theme_plone_ro_templates"
+    meta_type="Filesystem Directory View"
+    directory="theme.plone.ro:skins/theme_plone_ro_templates"/>
+ <object name="theme_plone_ro_styles"
+    meta_type="Filesystem Directory View"
+    directory="theme.plone.ro:skins/theme_plone_ro_styles"/>
+ <object name="theme_plone_ro_javascript"
+    meta_type="Filesystem Directory View"
+    directory="theme.plone.ro:skins/theme_plone_ro_javascript"/>
+
+ <skin-path name="Plone.ro Theme" based-on="Bootstrap Theme">
+  <layer name="theme_plone_ro_images"
+     insert-after="custom"/>
+  <layer name="theme_plone_ro_templates"
+     insert-after="theme_plone_ro_images"/>
+  <layer name="theme_plone_ro_styles"
+     insert-after="theme_plone_ro_templates"/>
+  <layer name="theme_plone_ro_javascript"
+     insert-after="theme_plone_ro_styles"/>
+
+ </skin-path>
+</object>

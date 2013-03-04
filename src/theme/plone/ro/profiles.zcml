@@ -1,0 +1,16 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:zcml="http://namespaces.zope.org/zcml"
+  xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+  i18n_domain="theme.plone.ro">
+
+  <genericsetup:registerProfile
+    zcml:condition="have plone-42"
+    name="default"
+    title="theme.plone.ro profile"
+    directory="profiles/default"
+    description='Customisation package'
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    />
+
+</configure>

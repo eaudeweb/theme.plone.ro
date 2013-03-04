@@ -1,0 +1,16 @@
+plone_skin:string=Bootstrap Theme
+logoName:string=logo.png
+
+linkColor:string=inherit
+backgroundColor:string=transparent
+
+fontSmallSize:string=100%
+borderWidth:string=1px
+borderStyle:string=solid
+
+globalBorderColor:string=White
+globalBackgroundColor:string=#dddddd
+
+discreetColor:string=#76797c
+
+textTransform:string=none
