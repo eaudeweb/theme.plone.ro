@@ -1,0 +1,36 @@
+/* slimbar */
+body #slimbar {
+    font-size: 80%;
+    line-height: normal;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+#slimbar .slimnavbar {
+    *position: relative;
+    *z-index: 2;
+    overflow: visible;
+    color: #FFF;
+}
+#slimbar .slimnavbar-inner {
+    padding: 2px 20px 0;
+    top: 3px;
+    margin: 0;
+    background-color: #329FD7;
+    border-top: 1px solid #6992CE;
+    overflow: visible;
+    position: relative;
+}
+
+#slimbar .slimnavbar .slimcontainer {
+    width: auto;
+}
+
+#slimbar dt, #slimbar dl {
+    line-height: normal;
+}
+
+#slimbar dl {
+    margin-bottom: 0;
+}
+/* --- */

@@ -7,12 +7,18 @@ if(!theme.plone){
 }
 
 theme.plone.ro = {
-    placeHolder: function(){
-        console.log('Plone.ro loaded!');
+    fixSlimbar: function(){
+        var slimbar = jQuery('#slimbar');
+        slimbar.removeClass();
+        slimbar.addClass('slimnavbar');
+        jQuery('.navbar-inner', slimbar).removeClass().addClass('slimnavbar-inner');
+        jQuery('.container', slimbar).removeClass().addClass('slimcontainer');
+        jQuery('.navbar.actionMenuContent', slimbar).removeClass().addClass('slimnavbar actionMenuContent');
+        jQuery('.dropdown-menu', slimbar).removeClass();
     }
 }
 
 
 jQuery(document).ready(function(){
-    theme.plone.ro.placeHolder();
+    theme.plone.ro.fixSlimbar();
 })
