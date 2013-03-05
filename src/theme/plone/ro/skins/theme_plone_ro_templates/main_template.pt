@@ -162,8 +162,8 @@
         </div>
 
         <footer tal:condition="not:ajax_load">
-            <div id="portal-footer-wrapper"
-                class="container-fluid">
+            <div id="portal-footer-wrapper">
+                <div id="footer-gradient"></div>
                 <div class="row-fluid">
                     <div tal:replace="structure provider:plone.portalfooter" />
                     <div id="kss-spinner">

@@ -34,3 +34,56 @@ body #slimbar {
     margin-bottom: 0;
 }
 /* --- */
+/* footer */
+footer {
+    color: #fff;
+    line-height: normal;
+}
+footer a {
+    color: #fff;
+}
+footer li a {
+    display: block;
+}
+footer li:hover, footer li:hover a{
+    color: #329fd7;
+    text-decoration: none;
+    background: #fff;
+}
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+footer li.list-header{
+    font-weight: bold;
+}
+#portal-footer-wrapper {
+    background: #329fd7;
+}
+#footer-logo {
+    float: left;
+    background-image: url('sprite-ploneorg.png');
+    background-position: 0 -376px;
+    width: 114px;
+    height: 44px;
+    border-right: 1px solid white;
+    margin: 0 1em 0 0.5em;
+}
+#footer-gradient {
+    background: top left url('sprite-ploneorg.png') repeat-x;
+    height: 7px;
+}
+footer ul {
+    margin: 0;
+    font-size: 90%;
+}
+@media (max-width: 767px) {
+    footer {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    footer ul {
+        text-align: center;
+    }
+}
+

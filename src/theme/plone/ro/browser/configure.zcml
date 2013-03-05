@@ -1,6 +1,14 @@
 <configure
-    xmlns="http://namespaces.zope.org/zope"
-    xmlns:browser="http://namespaces.zope.org/browser"
-    i18n_domain="theme.plone.ro">
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser"
+  i18n_domain="theme.plone.ro">
+
+  <browser:viewlet
+    name="plone.ro.footer"
+    manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+    template="templates/footer.pt"
+    layer="theme.plone.ro.browser.interfaces.IThemeSpecific"
+    permission="zope2.View"
+    />
 
 </configure>

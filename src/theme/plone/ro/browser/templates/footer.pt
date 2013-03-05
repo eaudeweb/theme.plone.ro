@@ -1,0 +1,78 @@
+<div class="row-fluid">
+  <div class="footer-background span10 offset2">
+    <div class="row-fluid"><div class="span12"></div></div>
+    <div class="row-fluid">
+      <div class="span10 offset1">
+        <a id="footer-logo" href="http://plone.org" title="Plone CMS, the open source content management system"></a>
+        <p>The Plone<sup>®</sup> CMS/WCM is © 2000–2013 the Plone Foundation and friends.</p>
+        <p>Plone<sup>®</sup> and the Plone logo are registered trademarks of the Plone Foundation. You’re looking good today.</p>
+      </div>
+    </div>
+    <div class="row-fluid"><div class="span12"></div></div>
+    <div class="row-fluid">
+      <div class="span2">
+        <ul>
+          <li class="list-header">
+            <a href="#">Descărcări</a></li>
+          <li><a href="#">Ia Plone</a></li>
+          <li><a href="#">Teme</a></li>
+          <li><a href="#">Unelte pentru dezvoltare</a></li>
+          <li><a href="#">Autentificare</a></li>
+          <li><a href="#">...și multe altele.</a></li>
+        </ul>
+      </div>
+      <div class="span2">
+        <ul>
+          <li class="list-header">
+            <a href="#">Documentație</a></li>
+          <li><a href="#">Întrebări frecvente</a></li>
+          <li><a href="#">Tutoriale video</a></li>
+          <li><a href="#">Manuale</a></li>
+          <li><a href="#">Cărți</a></li>
+          <li><a href="#">Referințe erori</a></li>
+          <li><a href="#">Site-uri care folosesc Plone</a></li>
+        </ul>
+      </div>
+      <div class="span2">
+        <ul>
+          <li class="list-header">
+            <a href="#">Dezvoltatori</a></li>
+          <li><a href="#">Foaie de parcurs</a></li>
+          <li><a href="#">Raportează un bug în Plone</a></li>
+          <li><a href="#">Raportează probleme cu site-ul</a></li>
+          <li><a href="#">Schimbări recente</a></li>
+          <li><a href="#">Parcurge sursa</a></li>
+          <li><a href="#">Contribuie la Plone</a></li>
+          <li><a href="#">Blog-urile comunității</a></li>
+        </ul>
+      </div>
+      <div class="span2">
+        <ul>
+          <li class="list-header">
+            <a href="#">Fundația Plone</a></li>
+          <li><a href="#">Donează</a></li>
+          <li><a href="#">Sponsori</a></li>
+          <li><a href="#">Minutele întâlnirilor</a></li>
+          <li><a href="#">Consiliul curent</a></li>
+          <li><a href="#">Membrii fundației</a></li>
+          <li><a href="#">Aplică pentru a deveni membru</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="span2">
+        <ul>
+          <li class="list-header">
+            <a href="#">Suport</a></li>
+          <li><a href="#">Servicii comerciale</a></li>
+          <li><a href="#">Cameră de discuții</a></li>
+          <li><a href="#">Forumuri</a></li>
+          <li><a href="#">Forumuri pentru sectoare specifice</a></li>
+          <li><a href="#">Forumuri pentru regiuni specifice</a></li>
+          <li><a href="#">Grupuri locale de utilizatori</a></li>
+          <li><a href="#">Pregătire</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row-fluid"><div class="span12"></div></div>
+  </div>
+</div>
