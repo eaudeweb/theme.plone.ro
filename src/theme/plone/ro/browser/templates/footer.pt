@@ -4,8 +4,8 @@
     <div class="row-fluid">
       <div class="span10 offset1">
         <a id="footer-logo" href="http://plone.org" title="Plone CMS, the open source content management system"></a>
-        <p>The Plone<sup>®</sup> CMS/WCM is © 2000–2013 the Plone Foundation and friends.</p>
-        <p>Plone<sup>®</sup> and the Plone logo are registered trademarks of the Plone Foundation. You’re looking good today.</p>
+        <p>Plone<sup>®</sup> CMS/WCM reprezintă © 2000–2013 Fundația Plone și prietenii.</p>
+        <p>Plone<sup>®</sup> și sigla Plone sunt mărci înregistrate ale Fundației Plone. Arăți bine astăzi.</p>
       </div>
     </div>
     <div class="row-fluid"><div class="span12"></div></div>
