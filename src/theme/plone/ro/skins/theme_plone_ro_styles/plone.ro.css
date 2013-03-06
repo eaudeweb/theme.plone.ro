@@ -34,6 +34,7 @@ body #slimbar {
     margin-bottom: 0;
 }
 /* --- */
+
 /* footer */
 footer {
     color: #fff;
@@ -77,6 +78,8 @@ footer ul {
     margin: 0;
     font-size: 90%;
 }
+
+/* full width footer at small resolutions */
 @media (max-width: 767px) {
     footer {
         margin-left: -20px;
@@ -86,4 +89,5 @@ footer ul {
         text-align: center;
     }
 }
+/* --- */
 
