@@ -13,50 +13,50 @@
       <div class="span2">
         <ul>
           <li class="list-header">
-            <a href="#">Descărcări</a></li>
-          <li><a href="#">Ia Plone</a></li>
-          <li><a href="#">Teme</a></li>
-          <li><a href="#">Unelte pentru dezvoltare</a></li>
-          <li><a href="#">Autentificare</a></li>
-          <li><a href="#">...și multe altele.</a></li>
+            <a href="http://plone.org/products">Descărcări</a></li>
+          <li><a href="http://plone.org/products/plone/releases/">Ia Plone</a></li>
+          <li><a href="http://plone.org/products?getCategories=themes">Teme</a></li>
+          <li><a href="http://plone.org/products?getCategories=dev">Unelte pentru dezvoltare</a></li>
+          <li><a href="http://plone.org/products?getCategories=auth">Autentificare</a></li>
+          <li><a href="http://plone.org/products">...și multe altele.</a></li>
         </ul>
       </div>
       <div class="span2">
         <ul>
           <li class="list-header">
-            <a href="#">Documentație</a></li>
-          <li><a href="#">Întrebări frecvente</a></li>
-          <li><a href="#">Tutoriale video</a></li>
-          <li><a href="#">Manuale</a></li>
-          <li><a href="#">Cărți</a></li>
-          <li><a href="#">Referințe erori</a></li>
-          <li><a href="#">Site-uri care folosesc Plone</a></li>
+            <a href="http://plone.org/documentation">Documentație</a></li>
+          <li><a href="http://plone.org/documentation/faq/">Întrebări frecvente</a></li>
+          <li><a href="http://plone.org/documentation/movies/">Tutoriale video</a></li>
+          <li><a href="http://plone.org/documentation/manual">Manuale</a></li>
+          <li><a href="http://plone.org/documentation/books">Cărți</a></li>
+          <li><a href="http://plone.org/documentation/error">Referințe erori</a></li>
+          <li><a href="http://plone.org/support/sites">Site-uri care folosesc Plone</a></li>
         </ul>
       </div>
       <div class="span2">
         <ul>
           <li class="list-header">
-            <a href="#">Dezvoltatori</a></li>
-          <li><a href="#">Foaie de parcurs</a></li>
-          <li><a href="#">Raportează un bug în Plone</a></li>
+            <a href="https://dev.plone.org/">Dezvoltatori</a></li>
+          <li><a href="http://plone.org/roadmap">Foaie de parcurs</a></li>
+          <li><a href="https://dev.plone.org/newticket">Raportează un bug în Plone</a></li>
           <li><a href="#">Raportează probleme cu site-ul</a></li>
-          <li><a href="#">Schimbări recente</a></li>
-          <li><a href="#">Parcurge sursa</a></li>
-          <li><a href="#">Contribuie la Plone</a></li>
-          <li><a href="#">Blog-urile comunității</a></li>
+          <li><a href="https://dev.plone.org/timeline">Schimbări recente</a></li>
+          <li><a href="https://github.com/plone">Parcurge sursa</a></li>
+          <li><a href="https://dev.plone.org/#ContributetoPlone">Contribuie la Plone</a></li>
+          <li><a href="http://planet.plone.org/">Blog-urile comunității</a></li>
         </ul>
       </div>
       <div class="span2">
         <ul>
           <li class="list-header">
-            <a href="#">Fundația Plone</a></li>
-          <li><a href="#">Donează</a></li>
-          <li><a href="#">Sponsori</a></li>
-          <li><a href="#">Minutele întâlnirilor</a></li>
-          <li><a href="#">Consiliul curent</a></li>
-          <li><a href="#">Membrii fundației</a></li>
-          <li><a href="#">Aplică pentru a deveni membru</a></li>
-          <li><a href="#">Contact</a></li>
+            <a href="http://plone.org/foundation">Fundația Plone</a></li>
+          <li><a href="http://plone.org/foundation/foundation-donations">Donează</a></li>
+          <li><a href="http://plone.org/foundation/donors">Sponsori</a></li>
+          <li><a href="http://plone.org/foundation/meetings/minutes">Minutele întâlnirilor</a></li>
+          <li><a href="http://plone.org/team/FoundationBoard">Consiliul curent</a></li>
+          <li><a href="http://plone.org/foundation/members">Membrii fundației</a></li>
+          <li><a href="http://plone.org/foundation/membership">Aplică pentru a deveni membru</a></li>
+          <li><a href="http://plone.org/foundation#contact">Contact</a></li>
         </ul>
       </div>
       <div class="span2">
@@ -66,10 +66,8 @@
           <li><a href="#">Servicii comerciale</a></li>
           <li><a href="#">Cameră de discuții</a></li>
           <li><a href="#">Forumuri</a></li>
-          <li><a href="#">Forumuri pentru sectoare specifice</a></li>
-          <li><a href="#">Forumuri pentru regiuni specifice</a></li>
-          <li><a href="#">Grupuri locale de utilizatori</a></li>
-          <li><a href="#">Pregătire</a></li>
+          <li><a href="https://groups.google.com/d/forum/plonero">Grupuri locale de utilizatori</a></li>
+          <li><a href="http://plone.org/events/training">Pregătire</a></li>
         </ul>
       </div>
     </div>
