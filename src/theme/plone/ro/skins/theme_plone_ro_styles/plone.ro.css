@@ -34,6 +34,40 @@ body #slimbar {
     margin-bottom: 0;
 }
 /* --- */
+.flag-repeat {
+    background-image: url('ribbon-repeat.png');
+    background-repeat: repeat-x;
+    position:absolute;
+    top: 79px;
+    left: -20px;
+    height: 20px;
+    width: 100%;
+}
+
+.flag-ribbon {
+    background-image: url('ribbon-thin.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 910px;
+    height: 40px;
+    top: 77px;
+    right: -20px;
+}
+@media (max-width: 967px) {
+    #portal-header {
+        background-position:0 94px;
+    }
+
+    .flag-repeat {
+        top: 155px;
+    }
+
+    .flag-ribbon {
+        top: 153px;
+    }
+}
+
+/* --- */
 
 /* footer */
 footer {

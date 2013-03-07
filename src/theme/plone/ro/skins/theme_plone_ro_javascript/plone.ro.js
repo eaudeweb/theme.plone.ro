@@ -15,10 +15,18 @@ theme.plone.ro = {
         jQuery('.container', slimbar).removeClass().addClass('slimcontainer');
         jQuery('.navbar.actionMenuContent', slimbar).removeClass().addClass('slimnavbar actionMenuContent');
         jQuery('.dropdown-menu', slimbar).removeClass();
+    },
+    addFlag: function(){
+        var flagRibbon = jQuery('<div>').addClass('flag-ribbon');
+        var flagRepeat = jQuery('<div>').addClass('flag-repeat');
+        flagRibbon.insertAfter('#portal-logo');
+        flagRepeat.insertAfter('#portal-logo');
     }
+
 }
 
 
 jQuery(document).ready(function(){
     theme.plone.ro.fixSlimbar();
+    theme.plone.ro.addFlag();
 })
