@@ -28,5 +28,5 @@ theme.plone.ro = {
 
 jQuery(document).ready(function(){
     theme.plone.ro.fixSlimbar();
-    theme.plone.ro.addFlag();
+    //theme.plone.ro.addFlag();
 })

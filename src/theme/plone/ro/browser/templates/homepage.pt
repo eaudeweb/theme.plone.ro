@@ -1,0 +1,36 @@
+<html metal:use-macro="here/main_template/macros/master">
+  <metal:title fill-slot="content-title" />
+  <metal:columns fill-slot="portal-columns">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div id="about-plone" class="span8">
+        <div id="home-banner">
+          <h1>Ce este Plone?</h1>
+          <h3>O soluție de management al conținutului care este puternică, ușor de instalat, folosii și customiza.
+          </h3>
+          <p>Cu Plone, utilizatorii non-tehnici pot creea și menține informația folosind doar un browser web. Perfect pentru a construii site-uri online și interne.<br />
+          Plone oferă standarde înalte de securitate fară a sacrifica extensibilitatea sau ușurința în folosire.
+          </p>
+          <p><a href="descopera">Descoperă posibilitățile<br /></a></p>
+        </div>
+      </div>
+      <div class="span4" tal:condition="sl">
+        <div id="home-carousel">
+        </div>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="span4" tal:condition="sl">
+        <tal:block replace="structure provider:plone.leftcolumn" />
+      </div>
+      <div class="span4" tal:condition="sl">
+        <tal:block replace="structure provider:plone.leftcolumn" />
+      </div>
+      <div class="span4" tal:condition="sr">
+        <tal:block replace="structure provider:plone.rightcolumn" />
+      </div>
+    </div>
+  </div>
+  <div style="clear: both;"/>
+    </metal:columns>
+  </html>

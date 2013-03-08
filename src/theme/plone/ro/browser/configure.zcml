@@ -11,4 +11,12 @@
     permission="zope2.View"
     />
 
+  <browser:page
+    for="plone.app.layout.navigation.interfaces.INavigationRoot"
+    name="homepage"
+    template="templates/homepage.pt"
+    layer="theme.plone.ro.browser.interfaces.IThemeSpecific"
+    permission="zope2.View"
+    />
+
 </configure>
