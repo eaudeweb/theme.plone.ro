@@ -15,6 +15,7 @@
     for="plone.app.layout.navigation.interfaces.INavigationRoot"
     name="homepage"
     template="templates/homepage.pt"
+    class=".homepage.Homepage"
     layer="theme.plone.ro.browser.interfaces.IThemeSpecific"
     permission="zope2.View"
     />

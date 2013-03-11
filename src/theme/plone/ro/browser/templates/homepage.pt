@@ -1,7 +1,8 @@
 <html metal:use-macro="here/main_template/macros/master">
   <metal:title fill-slot="content-title" />
   <metal:columns fill-slot="portal-columns">
-  <div class="container-fluid">
+  <div class="container-fluid"
+    tal:define="canEditPortlets python:checkPermission('Portlets: Manage portlets', context)">
     <div class="row-fluid">
       <div id="about-plone" class="span8">
         <div id="home-banner">
@@ -17,21 +18,49 @@
       <div class="span4" tal:condition="sl">
         <div id="home-carousel">
           <div tal:content="structure provider:plone.ro.homepage.carousel" />
+          </div>
+          <div class="managePortletsLink"
+            tal:condition="canEditPortlets">
+            <a title="Editează poze"
+              i18n:attributes="title"
+              tal:attributes="href string:/carousel/folder_contents"
+              >Editează poze</a>
+          </div>
+        </div>
+      </div>
+      <div class="row-fluid">
+        <div class="span4 well"
+          tal:define="portletManagerId string:plone.leftcolumn;
+          portletId string:link-uri-utile;">
+          <tal:block replace="structure python:view.renderPortletById(portletManagerId, portletId)" />
+          <div class="managePortletsLink" tal:condition="canEditPortlets">
+            <a title="Edit portlet" i18n:attributes="title"
+              tal:attributes="href string:/++contextportlets++${portletManagerId}/${portletId}/edit?referer=${request/URL1}"
+              >Edit portlet</a>
+          </div>
+        </div>
+        <div class="span4 well"
+          tal:define="portletManagerId string:plone.leftcolumn;
+          portletId string:rss-http-plone-org-new;">
+          <tal:block replace="structure python:view.renderPortletById(portletManagerId, portletId)" />
+          <div class="managePortletsLink" tal:condition="canEditPortlets">
+            <a title="Edit portlet" i18n:attributes="title"
+              tal:attributes="href string:/++contextportlets++${portletManagerId}/${portletId}/edit?referer=${request/URL1}"
+              >Edit portlet</a>
+          </div>
+        </div>
+        <div class="span4 well"
+          tal:define="portletManagerId string:plone.rightcolumn;
+          portletId string:news;">
+          <tal:block replace="structure python:view.renderPortletById(portletManagerId, portletId)" />
+          <div class="managePortletsLink" tal:condition="canEditPortlets">
+            <a title="Edit portlet" i18n:attributes="title"
+              tal:attributes="href string:/++contextportlets++${portletManagerId}/${portletId}/edit?referer=${request/URL1}"
+              >Edit portlet</a>
+          </div>
         </div>
       </div>
     </div>
-    <div class="row-fluid">
-      <div class="span4" tal:condition="sl">
-        <tal:block replace="structure provider:plone.leftcolumn" />
-      </div>
-      <div class="span4" tal:condition="sl">
-        <tal:block replace="structure provider:plone.leftcolumn" />
-      </div>
-      <div class="span4" tal:condition="sr">
-        <tal:block replace="structure provider:plone.rightcolumn" />
-      </div>
-    </div>
-  </div>
-  <div style="clear: both;"/>
-    </metal:columns>
-  </html>
+    <div style="clear: both;"/>
+      </metal:columns>
+    </html>
