@@ -3,7 +3,13 @@
   <order manager="plone.portalfooter" skinname="Plone.ro Theme">
     <viewlet name="plone.ro.footer" insert-before="*" />
   </order>
+  <order manager="plone.ro.homepage.carousel" skinname="Plone.ro Theme">
+    <viewlet name="Products.Carousel.viewlet" insert-before="*" />
+  </order>
 
+  <hidden manager="plone.abovecontent" skinname="Plone.ro Theme">
+    <viewlet name="Products.Carousel.viewlet" />
+  </hidden>
   <hidden manager="plone.portalfooter" skinname="Plone.ro Theme">
     <viewlet name="plone.footer" />
     <viewlet name="plone.colophon" />

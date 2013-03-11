@@ -73,7 +73,8 @@ body #slimbar {
 /* homepage */
 
 #about-plone {
-    height: 300px;
+    height: 357px;
+    line-height: normal;
     background: url("frontpage-image.png") no-repeat scroll 0 165px #9CB819;
     color: #383D3F;
     font-size: 110%;
@@ -85,23 +86,47 @@ body #slimbar {
     -webkit-border-radius: 0.5em;
 }
 
+#about-plone a {
+    float: right;
+    padding-right: 16px;
+    background: url("arrow.gif") no-repeat scroll right 8px transparent;
+    font-size: 1.6em;
+    border: 0 !important;
+    margin-top: 135px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
 #about-plone h1 {
     font-size: 24px;
+    line-height: normal;
+    color: white;
 }
 #about-plone h3 {
     font-size: 18px;
+    line-height: normal;
 
 }
 #about-plone p {
     color: white;
+    line-height: normal;
 }
 
 #home-carousel {
-    height: 300px;
+    height: 357px;
     border-radius: 0.5em;
     -moz-border-radius: 0.5em;
     -webkit-border-radius: 0.5em;
-    background: #329FD7;
+    /* background: #329FD7;*/
+}
+
+#home-carousel div.carousel-text {
+    display: none;
+}
+
+#home-carousel .carousel-banners {
+    margin: 0 auto;
 }
 
 /* --- */

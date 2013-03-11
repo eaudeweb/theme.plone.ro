@@ -19,4 +19,20 @@
     permission="zope2.View"
     />
 
+  <browser:viewletManager
+    name="plone.ro.homepage.carousel"
+    provides=".interfaces.IHomepageCarousel"
+    class="plone.app.viewletmanager.manager.OrderedViewletManager"
+    layer="theme.plone.ro.browser.interfaces.IThemeSpecific"
+    permission="zope2.View"
+    />
+
+  <browser:viewlet
+    name="plone.ro.carousel"
+    manager="theme.plone.ro.browser.interfaces.IHomepageCarousel"
+    class="Products.Carousel.browser.viewlet.CarouselViewlet"
+    layer="theme.plone.ro.browser.interfaces.IThemeSpecific"
+    permission="zope2.View"
+    />
+
 </configure>
