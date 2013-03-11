@@ -129,6 +129,24 @@ body #slimbar {
     margin: 0 auto;
 }
 
+.homepage-links .portletItem dt {
+    background: inherit;
+    padding: 0;
+}
+
+.homepage-links .portletItem dt a,
+.homepage-links .portletItem dt a:link {
+    color: #205c90;
+}
+
+.homepage-links .portletItem dt a:visited {
+    color: #427597;
+}
+
+.homepage-links .portletItem dd {
+    margin-bottom: 20px;
+}
+
 /* --- */
 
 

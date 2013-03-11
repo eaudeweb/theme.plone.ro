@@ -15,7 +15,7 @@
           <p><a href="descopera">Descoperă posibilitățile<br /></a></p>
         </div>
       </div>
-      <div class="span4" tal:condition="sl">
+      <div class="span4">
         <div id="home-carousel">
           <div tal:content="structure provider:plone.ro.homepage.carousel" />
           </div>
@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="row-fluid">
-        <div class="span4 well"
+        <div class="span4 well homepage-links"
           tal:define="portletManagerId string:plone.leftcolumn;
           portletId string:link-uri-utile;">
           <tal:block replace="structure python:view.renderPortletById(portletManagerId, portletId)" />
