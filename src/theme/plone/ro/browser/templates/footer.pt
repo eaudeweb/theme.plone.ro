@@ -73,6 +73,7 @@
     </div>
     <div class="row-fluid"><div class="span12"></div></div>
   </div>
+  <div class="row-fluid"><div class="span12"></div></div>
   <div class="row-fluid"><div class="span12">
       <div class="text-center">Sponsori:</div>
       <div class="text-center">
@@ -80,4 +81,5 @@
         <a href="http://www.pixelblaster.ro/">Pixelblaster</a>
       </div>
   </div></div>
+  <div class="row-fluid"><div class="span12"></div></div>
 </div>
