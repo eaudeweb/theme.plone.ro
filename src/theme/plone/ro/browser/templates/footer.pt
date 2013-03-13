@@ -39,7 +39,7 @@
             <a href="https://dev.plone.org/">Dezvoltatori</a></li>
           <li><a href="http://plone.org/roadmap">Foaie de parcurs</a></li>
           <li><a href="https://dev.plone.org/newticket">Raportează un bug în Plone</a></li>
-          <li><a href="http://redmine.eaudeweb.ro/projects/plonero">Raportează probleme cu site-ul</a></li>
+          <li><a href="https://github.com/eaudeweb/plone.ro/issues">Raportează probleme cu site-ul</a></li>
           <li><a href="https://dev.plone.org/timeline">Schimbări recente</a></li>
           <li><a href="https://github.com/plone">Parcurge sursa</a></li>
           <li><a href="https://dev.plone.org/#ContributetoPlone">Contribuie la Plone</a></li>
@@ -64,8 +64,8 @@
           <li class="list-header">
             <a href="#">Suport</a></li>
           <li><a href="#">Servicii comerciale</a></li>
-          <li><a href="#">Cameră de discuții</a></li>
-          <li><a href="#">Forumuri</a></li>
+          <li><a href="/chat">Cameră de discuții</a></li>
+          <li><a href="http://plone-ro.12574.n7.nabble.com/">Forumuri</a></li>
           <li><a href="https://groups.google.com/d/forum/plonero">Grupuri locale de utilizatori</a></li>
           <li><a href="http://plone.org/events/training">Pregătire</a></li>
         </ul>
