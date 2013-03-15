@@ -236,6 +236,7 @@ dl.portlet .portletItem > a:link {
 
 dl.portlet .portletItem > a span {
     color: #333;
+    font-weight: normal;
 }
 
 dl.portlet .portletItem > a:hover {
