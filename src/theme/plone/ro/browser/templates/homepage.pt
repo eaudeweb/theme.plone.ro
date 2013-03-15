@@ -41,7 +41,7 @@
         </div>
         <div class="span4 well"
           tal:define="portletManagerId string:plone.rightcolumn;
-          portletId string:rss-http-plone-eaudewe-1;">
+          portletId string:stiri-plone-org">
           <tal:block replace="structure python:view.renderPortletById(portletManagerId, portletId)" />
           <div class="managePortletsLink" tal:condition="canEditPortlets">
             <a title="Edit portlet" i18n:attributes="title"
@@ -51,7 +51,7 @@
         </div>
         <div class="span4 well"
           tal:define="portletManagerId string:plone.rightcolumn;
-          portletId string:rss-stiri;">
+          portletId string:stiri;">
           <tal:block replace="structure python:view.renderPortletById(portletManagerId, portletId)" />
           <div class="managePortletsLink" tal:condition="canEditPortlets">
             <a title="Edit portlet" i18n:attributes="title"
