@@ -206,3 +206,44 @@ footer ul {
 }
 /* --- */
 
+/* portlets */
+
+dl.portlet .portletItem dt {
+    background: inherit;
+    padding: inherit;
+    line-height: inherit;
+}
+
+dl.portlet .portletItem dt a,
+dl.portlet .portletItem dt a:link {
+    color: #205c90;
+}
+
+dl.portlet .portletItem dt a:visited {
+    color: #427597;
+}
+
+dl.portlet .portletItem dd {
+    margin-bottom: 20px;
+}
+
+dl.portlet .portletItem > a,
+dl.portlet .portletItem > a:visited,
+dl.portlet .portletItem > a:link {
+    border-bottom: none;
+    font-weight: bold;
+}
+
+dl.portlet .portletItem > a span {
+    color: #333;
+}
+
+dl.portlet .portletItem > a:hover {
+    text-decoration: none;
+}
+
+dl.portlet .portletFooter a {
+    text-decoration: none;
+    border-bottom: none;
+}
+/* --- */
