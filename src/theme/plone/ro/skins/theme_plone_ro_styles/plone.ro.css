@@ -208,6 +208,42 @@ footer ul {
 
 /* portlets */
 
+.descopera-heading {
+    padding: 1em 1.5em 2em;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    background-color: #9cb819;
+}
+
+.descopera-stanga ul li a {
+    background: url("blue-arrow.gif") no-repeat scroll left 2px;
+    padding-left: 18px;
+}
+
+.descopera-dreapta .descopera-download {
+    background: url("download-plone.png") no-repeat scroll center top white;
+    clear: both;
+    color: white !important;
+    display: block;
+    font-size: 128%;
+    height: 43px;
+    line-height: 40px;
+    margin: 27px 0 0;
+    padding: 1px 10px 0 46px;
+    border: 0 !important;
+    width: 225px;
+}
+
+.descopera-dreapta .descopera-download:hover {
+    background: url("download-plone.png") no-repeat scroll center -44px white;
+    text-shadow: 2px 2px 0.2em #CCCCCC;
+    color: white !important;
+}
+/* --- */
+
+/* portlets */
+
 dl.portlet .portletItem dt {
     background: inherit;
     padding: inherit;
