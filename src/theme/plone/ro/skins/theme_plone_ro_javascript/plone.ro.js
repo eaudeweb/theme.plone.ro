@@ -21,6 +21,10 @@ theme.plone.ro = {
         var flagRepeat = jQuery('<div>').addClass('flag-repeat');
         flagRibbon.insertAfter('#portal-logo');
         flagRepeat.insertAfter('#portal-logo');
+    },
+    fixMoreLinks: function(){
+        var more = jQuery('.portletFooter a span:last-child');
+        more.text('Mai mult...');
     }
 
 }
@@ -29,4 +33,5 @@ theme.plone.ro = {
 jQuery(document).ready(function(){
     theme.plone.ro.fixSlimbar();
     //theme.plone.ro.addFlag();
+    theme.plone.ro.fixMoreLinks();
 })
