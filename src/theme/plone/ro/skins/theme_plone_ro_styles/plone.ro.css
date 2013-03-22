@@ -1,3 +1,28 @@
+/* global */
+
+@media (min-width: 967px) {
+    div#visual-portal-wrapper {
+        max-width: 1170px;
+        margin: 0px auto;
+        box-shadow: 0px 10px 100px #ccc;
+        margin-bottom: 2em;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 200px;
+    }
+
+    div#portal-footer-wrapper {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 200px;
+    }
+}
+
+.LSBox button {
+    display: none;
+}
+
+/* --- */
+
+
 /* slimbar */
 body #slimbar {
     font-size: 80%;

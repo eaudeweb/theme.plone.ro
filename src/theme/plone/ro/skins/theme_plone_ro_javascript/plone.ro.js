@@ -25,8 +25,17 @@ theme.plone.ro = {
     fixMoreLinks: function(){
         var more = jQuery('.portletFooter a span:last-child');
         more.text('Mai mult...');
+    },
+    movePersonalTools: function(){
+        var tools = jQuery('#portal-personaltools-wrapper');
+        var nav = jQuery('nav');
+        var right_nav = jQuery('<div class="pull-right dropdown">');
+        jQuery('ul', nav).parent().append(right_nav);
+        tools.appendTo(right_nav);
+        tools.replaceWith(function(){
+            return jQuery('a:first, ul:first', this);
+        });
     }
-
 }
 
 
@@ -34,4 +43,5 @@ jQuery(document).ready(function(){
     theme.plone.ro.fixSlimbar();
     //theme.plone.ro.addFlag();
     theme.plone.ro.fixMoreLinks();
+    theme.plone.ro.movePersonalTools();
 })

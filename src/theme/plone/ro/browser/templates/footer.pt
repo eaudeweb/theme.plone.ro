@@ -75,7 +75,7 @@
   </div>
   <div class="row-fluid"><div class="span12"></div></div>
   <div class="row-fluid"><div class="span12">
-      <div class="text-center">Sponsori:</div>
+      <div class="text-center"><strong>Sponsori:</strong></div>
       <div class="text-center">
         <a href="http://www.eaudeweb.ro/">Eau de Web</a> &amp;
         <a href="http://www.pixelblaster.ro/">Pixelblaster</a>
@@ -84,7 +84,7 @@
   <div class="row-fluid"><div class="span12"></div></div>
   <div class="row-fluid"><div class="span12">
       <div class="text-center">
-        Vezi pagina cu <a href="/contribuitori">contribuitori</a> pentru mai multe informații.
+        Vezi pagina cu <strong><a href="/contribuitori">contribuitori</a></strong> pentru mai multe informații.
       </div>
   </div></div>
   <div class="row-fluid"><div class="span12"></div></div>
