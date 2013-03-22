@@ -1,6 +1,7 @@
 <configure
   xmlns="http://namespaces.zope.org/zope"
   xmlns:browser="http://namespaces.zope.org/browser"
+  xmlns:plone="http://namespaces.plone.org/plone"
   i18n_domain="theme.plone.ro">
 
   <browser:viewlet
@@ -34,6 +35,15 @@
     class="Products.Carousel.browser.viewlet.CarouselViewlet"
     layer="theme.plone.ro.browser.interfaces.IThemeSpecific"
     permission="zope2.View"
+    />
+
+  <include package="plone.app.portlets" />
+  <include package="plone.portlet.collection" />
+
+  <plone:portletRenderer
+    portlet="plone.portlet.collection.collection.ICollectionPortlet"
+    template="templates/collection.pt"
+    layer="theme.plone.ro.browser.interfaces.IThemeSpecific"
     />
 
 </configure>

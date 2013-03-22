@@ -20,6 +20,14 @@
     display: none;
 }
 
+.portlet-date {
+    float: right;
+    margin-bottom: 20px;
+    color: #999;
+    width: 100%;
+    text-align: right;
+}
+
 /* --- */
 
 
