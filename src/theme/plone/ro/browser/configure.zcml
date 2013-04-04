@@ -12,6 +12,15 @@
     permission="zope2.View"
     />
 
+  <browser:viewlet
+    name="plone.ro.addthis"
+    for="Products.CMFCore.interfaces.IContentish"
+    manager="plone.app.layout.viewlets.interfaces.IBelowContentBody"
+    template="templates/addthis.pt"
+    layer="theme.plone.ro.browser.interfaces.IThemeSpecific"
+    permission="zope2.View"
+    />
+
   <browser:page
     for="plone.app.layout.navigation.interfaces.INavigationRoot"
     name="homepage"
