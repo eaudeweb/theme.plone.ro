@@ -14,7 +14,7 @@
 
   <browser:viewlet
     name="plone.ro.addthis"
-    for="Products.CMFCore.interfaces.IContentish"
+    for="Products.Archetypes.interfaces.base.IBaseContent"
     manager="plone.app.layout.viewlets.interfaces.IBelowContentBody"
     template="templates/addthis.pt"
     layer="theme.plone.ro.browser.interfaces.IThemeSpecific"
