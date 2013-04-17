@@ -30,7 +30,7 @@
 
     <form name="searchform"
           action="@@search"
-          class="searchPage enableAutoFocus"
+          class="form-search searchPage enableAutoFocus"
           tal:define="portal context/@@plone_portal_state/portal;
                       first_call not:request/advanced_search|nothing;
                       st python:request.get('SearchableText', '');
@@ -41,7 +41,7 @@
         <input type="hidden" name="sort_on" value="" />
 
         <fieldset id="search-field" i18n:domain="plone" class="noborder">
-            <input class="searchPage"
+            <input class="search-query"
                    name="SearchableText"
                    type="text"
                    size="25"
@@ -49,15 +49,15 @@
                    i18n:attributes="title title_search_title;"
                    tal:attributes="value st;"
                    />
-            <input class="searchPage searchButton allowMultiSubmit"
+            <input class="searchButton allowMultiSubmit"
                    type="submit"
                    value="Search"
                    i18n:attributes="value label_search;"/>
         </fieldset>
 
-        <div class="row">
+        <div>
 
-            <div class="cell width-full position-0">
+            <div>
                 <h1 class="documentFirstHeading"
                     i18n:translate=""
                     tal:condition="not:st">
@@ -88,7 +88,6 @@
             </div>
             <div class="visualClear"><!-- --></div>
             <div id="search-results-wrapper"
-                 class="cell width-full position-0"
                  tal:define="b_start python:0;
                              b_start request/b_start | b_start;
                              batch python: view.results(b_start=b_start);
