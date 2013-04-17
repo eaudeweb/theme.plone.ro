@@ -293,6 +293,10 @@ a.portletRSS {
     height: 16px;
 }
 
+.portlet-news-item {
+    float: left;
+}
+
 dl.portlet .portletItem dt {
     background: inherit;
     padding: inherit;

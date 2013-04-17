@@ -38,22 +38,18 @@ theme.plone.ro = {
         });
     },
     addNewsThumb: function(){
-        var stiriROtitles = jQuery('dl.portlet-collection-stiri-plone-ro dd dt a');
-        var stiriROdesc = jQuery('dl.portlet-collection-stiri-plone-ro dd dd');
-        var stiriORGtitles = jQuery('dl.portlet-collection-stiri-plone-org dd dt a');
-        var stiriORGdesc = jQuery('dl.portlet-collection-stiri-plone-org dd dd');
+        var newsPortlets = jQuery('[class*="portlet-collection-stiri-plone"]');
+        var newsItems = jQuery('dd dd', newsPortlets);
 
-        // Stiri plone.ro
-        for ( var i=0; i<stiriROdesc.length; i++) {
-            var data = jQuery(stiriROdesc[i]).html();
-            jQuery(stiriROdesc[i]).html('<img style="float: left" src="' + jQuery(stiriROtitles[i])[0].href + '/image_tile" title="" />' + data);
-        };
-
-        // Stiri plone.org
-        for ( var i=0; i<stiriORGdesc.length; i++) {
-            var data = jQuery(stiriORGdesc[i]).html();
-            jQuery(stiriORGdesc[i]).html('<img style="float: left" src="' + jQuery(stiriORGtitles[i])[0].href + '/image_tile" title="" />' + data);
-        }
+        jQuery.each(newsItems, function(i, o){
+            var dd = jQuery(o);
+            var image = jQuery('<img>');
+            var articleUrl = dd.prev().find('a').attr('href');
+            var imageUrl = articleUrl + '/image_tile';
+            image.addClass('portlet-news-item');
+            image.attr('src', imageUrl);
+            dd.prepend(image);
+        });
     },
     addNewsRSSIcons: function() {
         var portlets = jQuery('.portletCollection .portletBottomRight');
