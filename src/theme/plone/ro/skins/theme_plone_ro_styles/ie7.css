@@ -1,0 +1,27 @@
+﻿/* for IE 7 only */
+
+body #visual-portal-wrapper {
+	width: 1170px;
+	margin: 0px auto;
+}
+
+body a#plone-org,
+body #portal-logo,
+body #portal-breadcrumbs a,
+body a.managePortletsFallback,
+body #dashboard-portlets1,
+body #dashboard-portlets2,
+body #dashboard-portlets3,
+body #dashboard-portlets4,
+body table.listing a,
+body div.listingBar .next,
+body div.listingBar .previous,
+body div.listingBar a,
+body #content-views a,
+body #content li.formTab a,
+body #content-core li.formTab a,
+body .multi-widget-checkbox,
+body #fieldset-openid-login label, 
+body #login-form label  {
+	display: inline;
+}

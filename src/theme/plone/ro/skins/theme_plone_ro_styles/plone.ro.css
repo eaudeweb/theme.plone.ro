@@ -16,6 +16,15 @@
     }
 }
 
+body {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.portlet-collection-stiri-plone-ro dd dt,
+.portlet-collection-stiri-plone-org dd dt {
+    clear: both;
+}
+
 .LSBox button {
     display: none;
 }
@@ -108,7 +117,7 @@ body #slimbar {
 #about-plone {
     height: 357px;
     line-height: normal;
-    background: url("") no-repeat scroll 0 165px #9CB819;
+    background: #329FD7 url("seeds.png") no-repeat 24% 75%;
     color: #383D3F;
     font-size: 110%;
     margin-bottom: 1em;
@@ -246,7 +255,8 @@ footer ul {
     border-radius: 0.5em;
     -moz-border-radius: 0.5em;
     -webkit-border-radius: 0.5em;
-    background-color: #9cb819;
+    background-color: #329FD7;
+    color: white;
 }
 
 .descopera-stanga ul li a {
@@ -259,7 +269,7 @@ footer ul {
     clear: both;
     color: white !important;
     display: block;
-    font-size: 128%;
+    font-size: 15px;
     height: 43px;
     line-height: 40px;
     margin: 27px 0 0;
@@ -276,6 +286,12 @@ footer ul {
 /* --- */
 
 /* portlets */
+
+a.portletRSS {
+    background-image: url('rss.png');
+    width: 16px;
+    height: 16px;
+}
 
 dl.portlet .portletItem dt {
     background: inherit;
@@ -316,4 +332,63 @@ dl.portlet .portletFooter a {
     text-decoration: none;
     border-bottom: none;
 }
+
+body .photoAlbumEntry {
+    background-image: none;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 0 2px 2px 0 rgb(194, 194, 194);
+    box-shadow: 0 2px 2px 0 rgb(194, 194, 194);
+    margin: 7px;
+    height: auto;
+    min-height: 350px;
+    text-align: left;
+}
+
+body .photoAlbumEntry a {
+    border-bottom: 0px;
+}
+
+body .photoAlbumEntryTitle {
+    height: auto;
+    line-height: 15px;
+    padding-bottom: 5px;
+}
+
+body .portlet-collection-stiri-plone-org dt.portletHeader,
+ body .portlet-collection-stiri-plone-ro dt.portletHeader,
+ body .portlet-static-link-uri-utile dt.portletHeader {
+    background-image:-webkit-linear-gradient(right, #DDD, whiteSmoke);
+    background-image: -moz-linear-gradient(right, #DDD, whiteSmoke);
+    background-image: -o-linear-gradient(right, #DDD, whiteSmoke);
+    background: linear-gradient(to right, #DDD, whiteSmoke);
+}
+
+body .portlet-collection-stiri-plone-org dd.portletItem dl dd,
+ body .portlet-collection-stiri-plone-ro dd.portletItem dl dd {
+    margin-top: 5px;
+}
+
+body .portlet-collection-stiri-plone-org img,
+ body .portlet-collection-stiri-plone-ro img {
+    padding-right: 0px;
+}
+
+body .portlet-collection-stiri-plone-org div,
+ body .portlet-collection-stiri-plone-ro div {
+    margin-left: 70px;
+}
+
+body .portlet-collection-stiri-plone-org small,
+ body .portlet-collection-stiri-plone-ro small {
+    border-bottom: 1px dotted #ccc;
+}
+
+body #content a:visited,
+body dl.portlet a:visited,
+body #content a:link,
+body dl.portlet a:link  {
+    border-bottom: 0px;
+}
+
 /* --- */

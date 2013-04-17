@@ -1,0 +1,12 @@
+﻿
+body dl.portlet dt,
+body .portlet-collection-stiri-plone-ro dt.portletHeader,
+body .portlet-static-link-uri-utile dt.portletHeader {
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#dddddd, endColorstr=#F5F5F5)"; 
+        background-color: red;
+}
+
+body #visual-portal-wrapper {
+	max-width: 1170px;
+	margin: 0px auto;
+}

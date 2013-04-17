@@ -23,7 +23,8 @@ theme.plone.ro = {
         flagRepeat.insertAfter('#portal-logo');
     },
     fixMoreLinks: function(){
-        var more = jQuery('.portletFooter a span:last-child');
+        var more = jQuery('.portletFooter a[class!="portletRSS"]:first-child span:last-child');
+        more.addClass('portletMoreLink');
         more.text('Mai mult...');
     },
     movePersonalTools: function(){
@@ -35,6 +36,33 @@ theme.plone.ro = {
         tools.replaceWith(function(){
             return jQuery('a:first, ul:first', this);
         });
+    },
+    addNewsThumb: function(){
+        var stiriROtitles = jQuery('dl.portlet-collection-stiri-plone-ro dd dt a');
+        var stiriROdesc = jQuery('dl.portlet-collection-stiri-plone-ro dd dd');
+        var stiriORGtitles = jQuery('dl.portlet-collection-stiri-plone-org dd dt a');
+        var stiriORGdesc = jQuery('dl.portlet-collection-stiri-plone-org dd dd');
+
+        // Stiri plone.ro
+        for ( var i=0; i<stiriROdesc.length; i++) {
+            var data = jQuery(stiriROdesc[i]).html();
+            jQuery(stiriROdesc[i]).html('<img style="float: left" src="' + jQuery(stiriROtitles[i])[0].href + '/image_tile" title="" />' + data);
+        };
+
+        // Stiri plone.org
+        for ( var i=0; i<stiriORGdesc.length; i++) {
+            var data = jQuery(stiriORGdesc[i]).html();
+            jQuery(stiriORGdesc[i]).html('<img style="float: left" src="' + jQuery(stiriORGtitles[i])[0].href + '/image_tile" title="" />' + data);
+        }
+    },
+    addNewsRSSIcons: function() {
+        var portlets = jQuery('.portletCollection .portletBottomRight');
+        jQuery.each(portlets, function(i, o){
+            var link = jQuery('a:first', jQuery(o).parent()).attr('href');
+            var rss_link = jQuery('<a class="portletRSS pull-right">');
+            rss_link.attr('href', link + '/RSS');
+            jQuery(o).append(rss_link);
+        });
     }
 }
 
@@ -44,4 +72,6 @@ jQuery(document).ready(function(){
     //theme.plone.ro.addFlag();
     theme.plone.ro.fixMoreLinks();
     theme.plone.ro.movePersonalTools();
+    theme.plone.ro.addNewsThumb();
+    theme.plone.ro.addNewsRSSIcons();
 })

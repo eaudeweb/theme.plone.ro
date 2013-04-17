@@ -6,4 +6,16 @@
     cacheable="True" compression="safe" cookable="True"
     enabled="1" expression=""
     />
+  <stylesheet title=""
+    id="ie7.css"
+    media="" rel="stylesheet" rendering="link"
+    cacheable="True" compression="safe" cookable="True"
+    enabled="1" expression=""
+    />
+  <stylesheet title=""
+    id="ie8.css"
+    media="" rel="stylesheet" rendering="link"
+    cacheable="True" compression="safe" cookable="True"
+    enabled="1" expression=""
+    />
 </object>
