@@ -396,3 +396,25 @@ body dl.portlet a:link  {
 }
 
 /* --- */
+
+
+/* search page */
+
+.searchPage .documentFirstHeading {
+    font-weight: normal;
+    letter-spacing: 0;
+    float: left;
+    margin-right: 0.8em;
+    margin-bottom: 0;
+}
+
+.searchPage #rss-subscription {
+    padding-top: 0.7em;
+    margin: 0;
+}
+
+.searchPage .searchResults {
+    margin-top: 1em;
+}
+
+/* --- */

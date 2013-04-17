@@ -55,22 +55,21 @@
                    i18n:attributes="value label_search;"/>
         </fieldset>
 
-        <div>
-
+        <div class="searchResults">
             <div>
-                <h1 class="documentFirstHeading"
+                <h3 class="documentFirstHeading"
                     i18n:translate=""
                     tal:condition="not:st">
                     Search results
-                </h1>
-                <h1 class="documentFirstHeading"
+                </h3>
+                <h3 class="documentFirstHeading"
                     i18n:translate=""
                     tal:condition="st">
                     Search results for
                     <strong id="search-term" tal:content="st" i18n:name="term">
                         Search Term
                     </strong>
-                </h1>
+                </h3>
 
                 <p id="rss-subscription" i18n:domain="plone"
                    tal:condition="context/portal_syndication/isSiteSyndicationAllowed">
