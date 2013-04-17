@@ -30,6 +30,15 @@
     permission="zope2.View"
     />
 
+  <browser:page
+    for="*"
+    name="search"
+    class="plone.app.search.browser.Search"
+    template="templates/search.pt"
+    layer="theme.plone.ro.browser.interfaces.IThemeSpecific"
+    permission="zope2.View"
+    />
+
   <browser:viewletManager
     name="plone.ro.homepage.carousel"
     provides=".interfaces.IHomepageCarousel"
