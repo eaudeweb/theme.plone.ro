@@ -431,3 +431,69 @@ body dl.portlet a:link  {
 }
 
 /* --- */
+
+/* ploneconf ribbon */
+.ploneconf-ribbon {
+	position: relative;
+	background-color: #38133f;
+	color: #fff;
+	padding: 12px 24px;
+	font-size: larger;
+}
+.ploneconf-ribbon:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.ploneconf-ribbon .left {
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	left: 20px;
+	text-align: left;
+}
+.ploneconf-ribbon .right {
+	position: absolute;
+	top: 50%;
+	right: 24px;
+	margin-top: -10px;
+}
+.ploneconf-ribbon .right a {
+	white-space: nowrap;
+	color: #fff;
+	background-color: #ffc06e;
+	padding: 9px 12px;
+	border-radius: 3px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.6);
+	font-family: sans-serif;
+    letter-spacing: .5px;
+}
+.ploneconf-ribbon .right a:hover {
+	background-color: #f76a52;
+	text-decoration: none;
+}
+.ploneconf-ribbon img {
+	display: block;
+	margin: -20px auto;
+	height: 180px;
+	max-width: 100%;
+	width: auto;
+}
+@media (max-width: 769px) {
+	.ploneconf-ribbon {
+		margin: 0 -20px;	
+		text-align: center;
+	}
+	.ploneconf-ribbon img {
+		margin-top: 0;
+	}
+	.ploneconf-ribbon .left {
+		position: static;
+		text-align: center;
+		margin: 0;
+	}
+	.ploneconf-ribbon .right {
+		position: static;
+		margin: 20px 0;
+	}
+}
