@@ -62,7 +62,7 @@
              </div>
              <img src="http://2015.ploneconf.org/++theme++ploneconf2015.theme/img/ploneconf2015-logo-dark.svg">
              <div class="right">
-                  <a href="">Vezi site!</a>
+                  <a href="http://2015.ploneconf.org/">Vezi site!</a>
              </div>
         </div>
         <header tal:condition="not:ajax_load">
