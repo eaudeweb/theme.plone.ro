@@ -56,6 +56,15 @@
                     dir python:isRTL and 'rtl' or 'ltr'">
 
     <div id="visual-portal-wrapper">
+        <div class="ploneconf-ribbon">
+             <div class="left">
+                  Plone Conference 2015<br>se organizează la București<br><small>Hotel Intercontinental</small>
+             </div>
+             <img src="http://2015.ploneconf.org/++theme++ploneconf2015.theme/img/ploneconf2015-logo-dark.svg">
+             <div class="right">
+                  <a href="">Vezi site!</a>
+             </div>
+        </div>
         <header tal:condition="not:ajax_load">
             <div id="portal-header-wrapper" class="container-fluid">
                 <div tal:replace="structure provider:plone.portaltop" />
