@@ -41,7 +41,11 @@ setup(name=NAME,
           'setuptools',
           # -*- Extra requirements: -*-
           'plonetheme.bootstrap',
+          'plonetheme.bootstrap',
       ],
       entry_points="""
-      """
+      # -*- Entry points: -*-
+      [z3c.autoinclude.plugin]
+      target = plone
+      """,
       )
